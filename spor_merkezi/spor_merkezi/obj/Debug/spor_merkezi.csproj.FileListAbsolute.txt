@@ -15,3 +15,4 @@ C:\Users\ahmad\OneDrive\Masaüstü\spor merkezi\spor_merkezi\spor_merkezi\bin\De
 C:\Users\ahmad\OneDrive\Masaüstü\spor merkezi\spor_merkezi\spor_merkezi\obj\Debug\spor_merkezi.exe.licenses
 C:\Users\ahmad\OneDrive\Masaüstü\spor merkezi\spor_merkezi\spor_merkezi\obj\Debug\spor_merkezi.csproj.CopyComplete
 C:\Users\ahmad\OneDrive\Masaüstü\spor merkezi\spor_merkezi\spor_merkezi\obj\Debug\spor_merkezi.AddMembers.resources
+C:\Users\ahmad\OneDrive\Masaüstü\spor merkezi\spor_merkezi\spor_merkezi\obj\Debug\spor_merkezi.UpdateDelete.resources
