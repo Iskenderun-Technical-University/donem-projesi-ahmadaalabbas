@@ -525,9 +525,9 @@ namespace spor_merkezi
             this.label8.ForeColor = System.Drawing.Color.Crimson;
             this.label8.Location = new System.Drawing.Point(748, 244);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 23);
+            this.label8.Size = new System.Drawing.Size(112, 23);
             this.label8.TabIndex = 22;
-            this.label8.Text = "Zaman";
+            this.label8.Text = "Zamanlama";
             // 
             // pictureBox4
             // 

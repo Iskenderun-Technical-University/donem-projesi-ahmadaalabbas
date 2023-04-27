@@ -76,7 +76,7 @@ namespace spor_merkezi
             this.bunifuThinButton21.ActiveLineColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton21.BackColor = System.Drawing.SystemColors.Control;
             this.bunifuThinButton21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton21.BackgroundImage")));
-            this.bunifuThinButton21.ButtonText = "üye ekleme";
+            this.bunifuThinButton21.ButtonText = "üye ekle";
             this.bunifuThinButton21.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton21.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bunifuThinButton21.ForeColor = System.Drawing.Color.SeaGreen;
@@ -102,7 +102,7 @@ namespace spor_merkezi
             this.bunifuThinButton22.ActiveLineColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton22.BackColor = System.Drawing.SystemColors.Control;
             this.bunifuThinButton22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton22.BackgroundImage")));
-            this.bunifuThinButton22.ButtonText = "üye silme";
+            this.bunifuThinButton22.ButtonText = "üye sil";
             this.bunifuThinButton22.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton22.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bunifuThinButton22.ForeColor = System.Drawing.Color.SeaGreen;
@@ -128,7 +128,7 @@ namespace spor_merkezi
             this.bunifuThinButton23.ActiveLineColor = System.Drawing.Color.Crimson;
             this.bunifuThinButton23.BackColor = System.Drawing.SystemColors.Control;
             this.bunifuThinButton23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuThinButton23.BackgroundImage")));
-            this.bunifuThinButton23.ButtonText = "düzenleme";
+            this.bunifuThinButton23.ButtonText = "Güncelle";
             this.bunifuThinButton23.Cursor = System.Windows.Forms.Cursors.Hand;
             this.bunifuThinButton23.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.bunifuThinButton23.ForeColor = System.Drawing.Color.SeaGreen;

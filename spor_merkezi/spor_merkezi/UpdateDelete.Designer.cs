@@ -114,9 +114,9 @@ namespace spor_merkezi
             this.label8.ForeColor = System.Drawing.Color.Crimson;
             this.label8.Location = new System.Drawing.Point(12, 388);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(69, 23);
+            this.label8.Size = new System.Drawing.Size(112, 23);
             this.label8.TabIndex = 42;
-            this.label8.Text = "Zaman";
+            this.label8.Text = "Zamanlama";
             // 
             // label7
             // 
@@ -125,9 +125,9 @@ namespace spor_merkezi
             this.label7.ForeColor = System.Drawing.Color.Crimson;
             this.label7.Location = new System.Drawing.Point(6, 322);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(103, 23);
+            this.label7.Size = new System.Drawing.Size(107, 23);
             this.label7.TabIndex = 41;
-            this.label7.Text = "Aylık tutarı";
+            this.label7.Text = "Aylık Tutarı";
             // 
             // label6
             // 
@@ -181,7 +181,7 @@ namespace spor_merkezi
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(107, 41);
             this.button1.TabIndex = 37;
-            this.button1.Text = "Düzenle";
+            this.button1.Text = "Güncelle";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button1.UseVisualStyleBackColor = false;
             // 
