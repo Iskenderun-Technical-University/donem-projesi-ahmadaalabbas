@@ -16,7 +16,7 @@ namespace spor_merkezi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new payform());
+            Application.Run(new login());
         }
     }
 }

@@ -30,7 +30,9 @@ namespace spor_merkezi
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            MainForm frm3 = new MainForm();
+            frm3.Show();
+            this.Hide();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

@@ -34,7 +34,9 @@ namespace spor_merkezi
 
         private void bunifuThinButton21_Click(object sender, EventArgs e)
         {
-
+            AddMembers frm3 = new AddMembers ();
+            frm3.Show();
+            this.Hide();
         }
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)

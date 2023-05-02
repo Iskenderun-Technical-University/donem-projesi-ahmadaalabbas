@@ -111,10 +111,10 @@ namespace spor_merkezi
             this.bunifuThinButton22.IdleFillColor = System.Drawing.Color.White;
             this.bunifuThinButton22.IdleForecolor = System.Drawing.Color.Crimson;
             this.bunifuThinButton22.IdleLineColor = System.Drawing.Color.White;
-            this.bunifuThinButton22.Location = new System.Drawing.Point(368, -1);
+            this.bunifuThinButton22.Location = new System.Drawing.Point(341, -1);
             this.bunifuThinButton22.Margin = new System.Windows.Forms.Padding(5);
             this.bunifuThinButton22.Name = "bunifuThinButton22";
-            this.bunifuThinButton22.Size = new System.Drawing.Size(141, 43);
+            this.bunifuThinButton22.Size = new System.Drawing.Size(179, 43);
             this.bunifuThinButton22.TabIndex = 3;
             this.bunifuThinButton22.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.bunifuThinButton22.Click += new System.EventHandler(this.bunifuThinButton22_Click);
