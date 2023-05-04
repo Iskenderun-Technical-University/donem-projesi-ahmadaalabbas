@@ -6,6 +6,6 @@
 >Bu program spor salonu yöneticileri için tasarlanmıştır.  Yöneticilerin her biri bu programda kendi hesabını oluşturabilir ve özelliklerini kendi spor salonları için kullanmaya başlayabilir.
 
 
->>Bu programda tüm katılımcıların bilgileri kayıt altına alınabilmekte olup, ödeme bilgileri ve eğitim saatlerinin yanı sıra değiştirilebileceği veya silinebileceği bir sayfa bulunmaktadır.
+>Bu programda tüm üyelerin bilgileri kayıt altına alınabilmekte olup, ödeme bilgileri ve eğitim saatlerinin yanı sıra değiştirilebileceği veya silinebileceği bir sayfa bulunmaktadır.
 ## Database Scheme
 ![use-case-diagram](./Database.png)
