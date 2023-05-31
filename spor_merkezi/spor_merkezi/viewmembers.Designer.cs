@@ -30,10 +30,10 @@ namespace spor_merkezi
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(viewmembers));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -109,7 +109,7 @@ namespace spor_merkezi
             this.bunifuTextBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.bunifuTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox3.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.bunifuTextBox3.DefaultText = "Ara";
+            this.bunifuTextBox3.DefaultText = "";
             this.bunifuTextBox3.FillColor = System.Drawing.Color.White;
             this.bunifuTextBox3.ForeColor = System.Drawing.Color.Crimson;
             this.bunifuTextBox3.HideSelection = true;
@@ -118,34 +118,33 @@ namespace spor_merkezi
             this.bunifuTextBox3.IconPadding = 10;
             this.bunifuTextBox3.IconRight = null;
             this.bunifuTextBox3.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox3.Lines = new string[] {
-        "Ara"};
+            this.bunifuTextBox3.Lines = new string[0];
             this.bunifuTextBox3.Location = new System.Drawing.Point(414, 95);
             this.bunifuTextBox3.MaxLength = 32767;
             this.bunifuTextBox3.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox3.Modified = false;
             this.bunifuTextBox3.Multiline = false;
             this.bunifuTextBox3.Name = "bunifuTextBox3";
-            stateProperties9.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox3.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Crimson;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnIdleState = stateProperties12;
+            stateProperties1.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox3.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox3.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox3.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Crimson;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox3.OnIdleState = stateProperties4;
             this.bunifuTextBox3.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox3.PasswordChar = '\0';
             this.bunifuTextBox3.PlaceholderForeColor = System.Drawing.Color.Crimson;
@@ -154,11 +153,12 @@ namespace spor_merkezi
             this.bunifuTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.bunifuTextBox3.SelectedText = "";
             this.bunifuTextBox3.SelectionLength = 0;
-            this.bunifuTextBox3.SelectionStart = 3;
+            this.bunifuTextBox3.SelectionStart = 0;
             this.bunifuTextBox3.ShortcutsEnabled = true;
             this.bunifuTextBox3.Size = new System.Drawing.Size(211, 37);
             this.bunifuTextBox3.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox3.TabIndex = 48;
+            this.bunifuTextBox3.Tag = "Ara";
             this.bunifuTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuTextBox3.TextMarginBottom = 0;
             this.bunifuTextBox3.TextMarginLeft = 3;
@@ -213,6 +213,7 @@ namespace spor_merkezi
             this.button2.Text = "Geri";
             this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label10
             // 

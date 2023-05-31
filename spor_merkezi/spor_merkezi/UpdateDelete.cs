@@ -37,5 +37,12 @@ namespace spor_merkezi
         {
             Application.ExitThread();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            MainForm frm3 = new MainForm();
+            frm3.Show();
+            this.Hide();
+        }
     }
 }

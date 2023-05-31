@@ -24,7 +24,9 @@ namespace spor_merkezi
 
         private void bunifuThinButton23_Click(object sender, EventArgs e)
         {
-
+            viewmembers frm5 = new viewmembers();
+            frm5.Show();
+            this.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
@@ -41,12 +43,16 @@ namespace spor_merkezi
 
         private void bunifuThinButton22_Click(object sender, EventArgs e)
         {
-
+            UpdateDelete frm4 = new UpdateDelete();
+            frm4.Show();
+            this.Hide();
         }
 
         private void bunifuThinButton24_Click(object sender, EventArgs e)
         {
-
+            payform frm6 = new payform();
+            frm6.Show();
+            this.Hide();
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)

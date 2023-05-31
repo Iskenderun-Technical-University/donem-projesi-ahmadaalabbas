@@ -74,12 +74,12 @@ namespace spor_merkezi
             ZamanCb.Text = "";
 
         }
-
+        //commit  
         private void button3_Click(object sender, EventArgs e)
         {
-            MainForm frm3 = new MainForm();
-            frm3.Show();
-            this.Hide();
+              MainForm frm3 = new MainForm();
+              frm3.Show();
+              this.Hide();
         }
     }
 }

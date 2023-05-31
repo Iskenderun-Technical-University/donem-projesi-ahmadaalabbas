@@ -154,6 +154,7 @@ namespace spor_merkezi
             this.button3.Text = "Geri";
             this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
