@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -32,6 +33,34 @@ namespace spor_merkezi
             MainForm frm3 = new MainForm();
             frm3.Show();
             this.Hide();
+        }
+        SqlConnection Cone = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\ahmad\OneDrive\Belgeler\GymDb.mdf;Integrated Security=True;Connect Timeout=30");
+        private void populate()
+        {
+            Cone.Open();
+            string query = "select * from UyeTbl";
+            SqlDataAdapter sda = new SqlDataAdapter(query, Cone);
+            SqlCommandBuilder builder = new SqlCommandBuilder();
+            var ds= new DataSet();
+            sda.Fill(ds);
+            MemberSDGV.DataSource = ds.Tables[0];
+            Cone.Close();
+
+
+        }
+        private void viewmembers_Load(object sender, EventArgs e)
+        {
+            populate();
+        }
+
+        private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
+        {
+
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Application.ExitThread();
         }
     }
 }

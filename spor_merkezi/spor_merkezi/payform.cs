@@ -28,5 +28,10 @@ namespace spor_merkezi
             frm3.Show();
             this.Hide();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Application.ExitThread();
+        }
     }
 }

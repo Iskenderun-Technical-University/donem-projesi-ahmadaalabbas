@@ -37,15 +37,16 @@ namespace spor_merkezi
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.bunifuTextBox3 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            this.MemberSDGV = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MemberSDGV)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox4
@@ -57,6 +58,7 @@ namespace spor_merkezi
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 26;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label2
             // 
@@ -79,17 +81,6 @@ namespace spor_merkezi
             this.label1.Size = new System.Drawing.Size(236, 50);
             this.label1.TabIndex = 24;
             this.label1.Text = "spor salonu";
-            // 
-            // dataGridView1
-            // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(58, 138);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(988, 408);
-            this.dataGridView1.TabIndex = 47;
             // 
             // bunifuTextBox3
             // 
@@ -158,7 +149,7 @@ namespace spor_merkezi
             this.bunifuTextBox3.Size = new System.Drawing.Size(211, 37);
             this.bunifuTextBox3.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox3.TabIndex = 48;
-            this.bunifuTextBox3.Tag = "Ara";
+            this.bunifuTextBox3.Tag = "ara";
             this.bunifuTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuTextBox3.TextMarginBottom = 0;
             this.bunifuTextBox3.TextMarginLeft = 3;
@@ -237,6 +228,21 @@ namespace spor_merkezi
             this.label9.TabIndex = 52;
             this.label9.Text = "DevelopedBy@AhmadAlabbas";
             // 
+            // backgroundWorker1
+            // 
+            this.backgroundWorker1.DoWork += new System.ComponentModel.DoWorkEventHandler(this.backgroundWorker1_DoWork);
+            // 
+            // MemberSDGV
+            // 
+            this.MemberSDGV.BackgroundColor = System.Drawing.Color.AliceBlue;
+            this.MemberSDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.MemberSDGV.Location = new System.Drawing.Point(58, 138);
+            this.MemberSDGV.Name = "MemberSDGV";
+            this.MemberSDGV.RowHeadersWidth = 51;
+            this.MemberSDGV.RowTemplate.Height = 24;
+            this.MemberSDGV.Size = new System.Drawing.Size(988, 408);
+            this.MemberSDGV.TabIndex = 47;
+            // 
             // viewmembers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -248,15 +254,16 @@ namespace spor_merkezi
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.bunifuTextBox3);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.MemberSDGV);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "viewmembers";
             this.Text = "viewmembers";
+            this.Load += new System.EventHandler(this.viewmembers_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.MemberSDGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -267,12 +274,13 @@ namespace spor_merkezi
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox3;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label9;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
+        private System.Windows.Forms.DataGridView MemberSDGV;
     }
 }
