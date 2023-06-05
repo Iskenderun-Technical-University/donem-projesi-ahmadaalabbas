@@ -54,19 +54,7 @@ namespace spor_merkezi
             AdCb.DataSource = dt;
             Cone.Close();
         }
-        private void FilterByName()
-        {
-            Cone.Open();
-            string query = "select * from OdemeTbl";
-            SqlDataAdapter sda = new SqlDataAdapter(query, Cone);
-            SqlCommandBuilder builder = new SqlCommandBuilder();
-            var ds = new DataSet();
-            sda.Fill(ds);
-            OdemeDGV.DataSource = ds.Tables[0];
-            Cone.Close();
-
-
-        }
+ 
         private void populate()
         {
             Cone.Open();
@@ -82,7 +70,7 @@ namespace spor_merkezi
         }
         private void button3_Click(object sender, EventArgs e)
         {
-            //AdTb.Text = "";
+               
             AylikTb.Text = "";
         }
 
@@ -132,5 +120,8 @@ namespace spor_merkezi
                 populate();
             }
         }
+
+        
+
     }
 }

@@ -30,14 +30,14 @@ namespace spor_merkezi
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(viewmembers));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.bunifuTextBox3 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.UyeArama = new Bunifu.UI.WinForms.BunifuTextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
@@ -82,82 +82,83 @@ namespace spor_merkezi
             this.label1.TabIndex = 24;
             this.label1.Text = "spor salonu";
             // 
-            // bunifuTextBox3
+            // UyeArama
             // 
-            this.bunifuTextBox3.AcceptsReturn = false;
-            this.bunifuTextBox3.AcceptsTab = false;
-            this.bunifuTextBox3.AnimationSpeed = 200;
-            this.bunifuTextBox3.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.bunifuTextBox3.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.bunifuTextBox3.BackColor = System.Drawing.Color.Transparent;
-            this.bunifuTextBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("bunifuTextBox3.BackgroundImage")));
-            this.bunifuTextBox3.BorderColorActive = System.Drawing.Color.Crimson;
-            this.bunifuTextBox3.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.bunifuTextBox3.BorderColorHover = System.Drawing.Color.Crimson;
-            this.bunifuTextBox3.BorderColorIdle = System.Drawing.Color.Crimson;
-            this.bunifuTextBox3.BorderRadius = 1;
-            this.bunifuTextBox3.BorderThickness = 1;
-            this.bunifuTextBox3.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.bunifuTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox3.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.bunifuTextBox3.DefaultText = "";
-            this.bunifuTextBox3.FillColor = System.Drawing.Color.White;
-            this.bunifuTextBox3.ForeColor = System.Drawing.Color.Crimson;
-            this.bunifuTextBox3.HideSelection = true;
-            this.bunifuTextBox3.IconLeft = null;
-            this.bunifuTextBox3.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox3.IconPadding = 10;
-            this.bunifuTextBox3.IconRight = null;
-            this.bunifuTextBox3.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.bunifuTextBox3.Lines = new string[0];
-            this.bunifuTextBox3.Location = new System.Drawing.Point(414, 95);
-            this.bunifuTextBox3.MaxLength = 32767;
-            this.bunifuTextBox3.MinimumSize = new System.Drawing.Size(1, 1);
-            this.bunifuTextBox3.Modified = false;
-            this.bunifuTextBox3.Multiline = false;
-            this.bunifuTextBox3.Name = "bunifuTextBox3";
-            stateProperties1.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox3.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Crimson;
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnIdleState = stateProperties4;
-            this.bunifuTextBox3.Padding = new System.Windows.Forms.Padding(3);
-            this.bunifuTextBox3.PasswordChar = '\0';
-            this.bunifuTextBox3.PlaceholderForeColor = System.Drawing.Color.Crimson;
-            this.bunifuTextBox3.PlaceholderText = "";
-            this.bunifuTextBox3.ReadOnly = false;
-            this.bunifuTextBox3.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.bunifuTextBox3.SelectedText = "";
-            this.bunifuTextBox3.SelectionLength = 0;
-            this.bunifuTextBox3.SelectionStart = 0;
-            this.bunifuTextBox3.ShortcutsEnabled = true;
-            this.bunifuTextBox3.Size = new System.Drawing.Size(211, 37);
-            this.bunifuTextBox3.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.bunifuTextBox3.TabIndex = 48;
-            this.bunifuTextBox3.Tag = "ara";
-            this.bunifuTextBox3.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.bunifuTextBox3.TextMarginBottom = 0;
-            this.bunifuTextBox3.TextMarginLeft = 3;
-            this.bunifuTextBox3.TextMarginTop = 0;
-            this.bunifuTextBox3.TextPlaceholder = "";
-            this.bunifuTextBox3.UseSystemPasswordChar = false;
-            this.bunifuTextBox3.WordWrap = true;
-            this.bunifuTextBox3.TextChanged += new System.EventHandler(this.bunifuTextBox3_TextChanged);
+            this.UyeArama.AcceptsReturn = false;
+            this.UyeArama.AcceptsTab = false;
+            this.UyeArama.AnimationSpeed = 200;
+            this.UyeArama.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.UyeArama.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.UyeArama.BackColor = System.Drawing.Color.Transparent;
+            this.UyeArama.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("UyeArama.BackgroundImage")));
+            this.UyeArama.BorderColorActive = System.Drawing.Color.Crimson;
+            this.UyeArama.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.UyeArama.BorderColorHover = System.Drawing.Color.Crimson;
+            this.UyeArama.BorderColorIdle = System.Drawing.Color.Crimson;
+            this.UyeArama.BorderRadius = 1;
+            this.UyeArama.BorderThickness = 1;
+            this.UyeArama.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.UyeArama.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.UyeArama.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.UyeArama.DefaultText = "";
+            this.UyeArama.FillColor = System.Drawing.Color.White;
+            this.UyeArama.ForeColor = System.Drawing.Color.Crimson;
+            this.UyeArama.HideSelection = true;
+            this.UyeArama.IconLeft = null;
+            this.UyeArama.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.UyeArama.IconPadding = 10;
+            this.UyeArama.IconRight = null;
+            this.UyeArama.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.UyeArama.Lines = new string[0];
+            this.UyeArama.Location = new System.Drawing.Point(414, 95);
+            this.UyeArama.MaxLength = 32767;
+            this.UyeArama.MinimumSize = new System.Drawing.Size(1, 1);
+            this.UyeArama.Modified = false;
+            this.UyeArama.Multiline = false;
+            this.UyeArama.Name = "UyeArama";
+            stateProperties5.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.UyeArama.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.UyeArama.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.UyeArama.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.Crimson;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.UyeArama.OnIdleState = stateProperties8;
+            this.UyeArama.Padding = new System.Windows.Forms.Padding(3);
+            this.UyeArama.PasswordChar = '\0';
+            this.UyeArama.PlaceholderForeColor = System.Drawing.Color.Crimson;
+            this.UyeArama.PlaceholderText = "";
+            this.UyeArama.ReadOnly = false;
+            this.UyeArama.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.UyeArama.SelectedText = "";
+            this.UyeArama.SelectionLength = 0;
+            this.UyeArama.SelectionStart = 0;
+            this.UyeArama.ShortcutsEnabled = true;
+            this.UyeArama.Size = new System.Drawing.Size(211, 37);
+            this.UyeArama.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.UyeArama.TabIndex = 48;
+            this.UyeArama.Tag = "ara";
+            this.UyeArama.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.UyeArama.TextMarginBottom = 0;
+            this.UyeArama.TextMarginLeft = 3;
+            this.UyeArama.TextMarginTop = 0;
+            this.UyeArama.TextPlaceholder = "";
+            this.UyeArama.UseSystemPasswordChar = false;
+            this.UyeArama.WordWrap = true;
+            this.UyeArama.TextChange += new System.EventHandler(this.UyeArama_TextChange);
+            this.UyeArama.TextChanged += new System.EventHandler(this.bunifuTextBox3_TextChanged);
             // 
             // button3
             // 
@@ -189,6 +190,7 @@ namespace spor_merkezi
             this.button1.Text = "Yenile";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -234,10 +236,12 @@ namespace spor_merkezi
             // 
             // MemberSDGV
             // 
+            this.MemberSDGV.AllowUserToDeleteRows = false;
             this.MemberSDGV.BackgroundColor = System.Drawing.Color.AliceBlue;
             this.MemberSDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.MemberSDGV.Location = new System.Drawing.Point(58, 138);
             this.MemberSDGV.Name = "MemberSDGV";
+            this.MemberSDGV.ReadOnly = true;
             this.MemberSDGV.RowHeadersWidth = 51;
             this.MemberSDGV.RowTemplate.Height = 24;
             this.MemberSDGV.Size = new System.Drawing.Size(988, 408);
@@ -253,7 +257,7 @@ namespace spor_merkezi
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.bunifuTextBox3);
+            this.Controls.Add(this.UyeArama);
             this.Controls.Add(this.MemberSDGV);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.label2);
@@ -274,7 +278,7 @@ namespace spor_merkezi
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox3;
+        private Bunifu.UI.WinForms.BunifuTextBox UyeArama;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;

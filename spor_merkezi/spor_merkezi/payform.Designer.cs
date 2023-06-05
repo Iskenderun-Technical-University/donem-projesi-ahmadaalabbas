@@ -30,10 +30,10 @@ namespace spor_merkezi
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(payform));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -132,26 +132,26 @@ namespace spor_merkezi
             this.AylikTb.Modified = false;
             this.AylikTb.Multiline = false;
             this.AylikTb.Name = "AylikTb";
-            stateProperties9.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties9.FillColor = System.Drawing.Color.Empty;
-            stateProperties9.ForeColor = System.Drawing.Color.Empty;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.AylikTb.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.AylikTb.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties11.FillColor = System.Drawing.Color.Empty;
-            stateProperties11.ForeColor = System.Drawing.Color.Empty;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.AylikTb.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Crimson;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Empty;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.AylikTb.OnIdleState = stateProperties12;
+            stateProperties1.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.AylikTb.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.AylikTb.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.AylikTb.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Crimson;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.AylikTb.OnIdleState = stateProperties4;
             this.AylikTb.Padding = new System.Windows.Forms.Padding(3);
             this.AylikTb.PasswordChar = '\0';
             this.AylikTb.PlaceholderForeColor = System.Drawing.Color.Crimson;
@@ -255,13 +255,16 @@ namespace spor_merkezi
             // 
             // OdemeDGV
             // 
+            this.OdemeDGV.AllowUserToDeleteRows = false;
+            this.OdemeDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.OdemeDGV.BackgroundColor = System.Drawing.Color.White;
             this.OdemeDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.OdemeDGV.Location = new System.Drawing.Point(276, 163);
+            this.OdemeDGV.Location = new System.Drawing.Point(238, 178);
             this.OdemeDGV.Name = "OdemeDGV";
+            this.OdemeDGV.ReadOnly = true;
             this.OdemeDGV.RowHeadersWidth = 51;
             this.OdemeDGV.RowTemplate.Height = 24;
-            this.OdemeDGV.Size = new System.Drawing.Size(745, 346);
+            this.OdemeDGV.Size = new System.Drawing.Size(826, 372);
             this.OdemeDGV.TabIndex = 57;
             this.OdemeDGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.OdemeDGV_CellContentClick);
             // 
@@ -300,6 +303,7 @@ namespace spor_merkezi
             // AdCb
             // 
             this.AdCb.BackColor = System.Drawing.Color.White;
+            this.AdCb.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.AdCb.Font = new System.Drawing.Font("Cambria", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.AdCb.ForeColor = System.Drawing.Color.Black;
             this.AdCb.FormattingEnabled = true;

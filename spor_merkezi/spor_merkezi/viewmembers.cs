@@ -22,10 +22,24 @@ namespace spor_merkezi
         {
 
         }
+        private void FilterByName()
+        {
+            Cone.Open();
+            string query = "select * from UyeTbl where UyeAdı='" + UyeArama.Text + "'";
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand(query, Cone);
+            
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            var ds = new DataSet();
+            sda.Fill(dt);
+            MemberSDGV.DataSource = dt;
+            Cone.Close();
 
+
+        }
         private void button3_Click(object sender, EventArgs e)
         {
-
+            FilterByName();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -61,6 +75,24 @@ namespace spor_merkezi
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             Application.ExitThread();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            populate();
+        }
+
+        private void UyeArama_TextChange(object sender, EventArgs e)
+        {
+            Cone.Open();
+            string query = "select * from UyeTbl where concat(UyeAdı,UyeCins) like '%" + UyeArama.Text + "%'";
+            DataTable dt = new DataTable();
+            SqlCommand cmd = new SqlCommand(query, Cone);
+            SqlDataAdapter sda = new SqlDataAdapter(cmd);
+            var ds = new DataSet();
+            sda.Fill(dt);
+            MemberSDGV.DataSource = dt;
+            Cone.Close();
         }
     }
 }
